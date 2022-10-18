@@ -17,3 +17,9 @@ while (j > 0) {
   j--;
   console.log(j)
 } 
+
+const numbers = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10'];
+
+for (const x of numbers) {
+  console.log(x);
+}
